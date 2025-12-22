@@ -69,3 +69,11 @@ Strategic Decisions: Support management with real-time insights
 6️⃣ Screenshots / Demos
 
 Dashboard screenshots and visuals are included in the repository to showcase each analytical page and key KPIs.
+Page 1 : 
+https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Financial%20Overview%20and%20Revenue%20Performance.png
+Page2:
+https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Room%20Category%20Performance%20%26%20Booking%20Insights.png
+Page3:
+https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/occupancy%20%26%20capacity%20analysis.png
+Page4:
+https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Cancellation%20and%20%20lost%20Revenue%20Analysis.png
