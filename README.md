@@ -1,80 +1,183 @@
-# ITC-Hotels-Revenue-Optimization Dashboard
+🏨 ITC Hotels Revenue Optimization Dashboard | Power BI Project
+📌 Project Overview
 
-ITC Hotels Revenue Optimization – Power BI Project An interactive Power BI dashboard built for ITC Hotels to analyze revenue, occupancy, bookings, and cancellations. The project tracks KPIs like ADR, RevPAR, MoM/WoW growth, ALOS, and lost revenue to support data-driven pricing and capacity decisions.
-1️⃣ Project Title / Headline
-🏨 ITC Hotels Revenue Optimization – Power BI Analytics Dashboard
-An interactive, multi-page Power BI dashboard designed to analyze revenue, occupancy, booking behavior, and cancellations across luxury hotel properties to support data-driven hospitality decisions.
+The ITC Hotels Revenue Optimization Dashboard is an advanced, interactive Power BI business intelligence solution developed to analyze hospitality revenue performance, occupancy trends, booking behavior, and cancellation impact across multiple luxury hotel properties.
 
-2️⃣ Short Description / Purpose
-This Power BI dashboard analyzes operational and financial performance for ITC Hotels. It enables stakeholders to monitor revenue trends, occupancy efficiency, room category performance, and cancellation impact to optimize pricing, capacity planning, and customer experience.
+This project transforms raw booking and operational data into actionable insights that help hotel stakeholders optimize pricing strategies, improve occupancy efficiency, reduce revenue leakage, and support strategic decision-making.
 
-3️⃣ Tech Stack
-The dashboard was built using the following tools and technologies:
-📊 Power BI Desktop – Primary platform for dashboard development and visualization
-📂 Power Query – Data cleaning, transformation, and preparation
-🧠 DAX (Data Analysis Expressions) – Measures for KPIs, MoM/WoW growth, running totals, and time intelligence
-🧩 Data Modeling – Fact and dimension tables with optimized relationships
-📁 File Format – .pbix for development and .png for dashboard previews
+🎯 Business Objective
 
-4️⃣ Data Source
-Source: Internal hotel booking and operations dataset (provided for the project)
-The dataset includes detailed information on:
-Hotel properties and room categories
-Booking, check-in, and check-out dates
-Revenue generated and realized
-Occupancy, capacity, and cancellations
-This structure enables analysis across financial, operational, and customer behavior dimensions.
+Luxury hotels face dynamic challenges such as fluctuating demand, seasonal occupancy shifts, booking cancellations, and varying room category performance.
 
-5️⃣ Features / Highlights
-• Business Problem
-Luxury hotels manage complex operations with fluctuating demand, cancellations, and diverse room categories. Without a centralized analytical view, it becomes difficult to track revenue leakage, occupancy efficiency, and booking behavior trends.
-• Goal of the Dashboard
-To provide a single, interactive analytics solution that:
-Tracks revenue and growth trends
-Improves occupancy and capacity utilization
-Identifies high-performing room categories
-Quantifies cancellation impact and lost revenue
-• Walkthrough of Key Visuals
+Without centralized analytics, it becomes difficult to:
 
-Page 1 – Financial Overview
-KPIs: Total Revenue, ADR, RevPAR
-Cumulative Revenue Trend
-MoM & WoW Revenue Growth
-Moving Average of Revenue
+Track revenue performance across properties
+Identify occupancy inefficiencies
+Analyze booking and cancellation patterns
+Optimize room pricing and capacity utilization
+✅ Solution:
 
-Page 2 – Occupancy & Capacity
-Occupancy Rate by Hotel & Room Type
-Seasonal and period-based occupancy trends
-Occupancy vs Revenue & RevPAR correlation
+This dashboard provides a single source of truth for hotel leadership by delivering real-time KPI monitoring, trend analysis, and operational insights.
 
-Page 3 – Room & Booking Insights
-Revenue by Room Category
-Booking Lead Time Analysis
+🛠️ Tech Stack
+
+This project was built using the following tools and technologies:
+
+📊 Power BI Desktop
+
+Primary platform for dashboard creation, interactive reporting, and data storytelling.
+
+📂 Power Query
+
+Used for:
+
+Data cleaning
+Data transformation
+Handling null values
+Formatting booking and date structures
+🧠 DAX (Data Analysis Expressions)
+
+Created advanced measures for:
+
+ADR (Average Daily Rate)
+RevPAR (Revenue per Available Room)
+Occupancy %
 Average Length of Stay (ALOS)
-Running Revenue Trends
+Cancellation Rate
+MoM (Month-over-Month) Growth
+WoW (Week-over-Week) Growth
+Running Totals & Moving Averages
+🧩 Data Modeling
 
-Page 4 – Cancellations Analysis
-Cancellation Rate by Hotel & Room Type
-Cumulative Cancellations
-Lost Revenue due to Cancellations
+Designed star-schema architecture with:
+
+Fact Tables (Bookings / Revenue / Occupancy)
+Dimension Tables (Hotels / Room Categories / Dates)
+📁 File Formats
+.pbix → Dashboard development
+.png → Dashboard previews & documentation
+📂 Data Source
+
+Source: Internal hospitality operations and booking dataset (project-based)
+
+Dataset includes:
+Hotel properties
+Room categories
+Booking dates
+Check-in / Check-out dates
+Revenue generated
+Realized revenue
+Occupancy rates
+Capacity metrics
+Booking status
+Cancellation data
+📈 Key KPIs Tracked
+💰 Total Revenue
+🛏️ Occupancy Rate
+📌 ADR (Average Daily Rate)
+📌 RevPAR (Revenue per Available Room)
+📉 Cancellation Rate
+📆 Average Length of Stay (ALOS)
+📊 MoM Revenue Growth
+📊 WoW Revenue Growth
+💸 Lost Revenue from Cancellations
+🚀 Dashboard Features & Analytical Pages
+📍 Page 1: Financial Overview & Revenue Performance
+Highlights:
+Total Revenue KPI
+ADR & RevPAR Analysis
+Revenue Trend Over Time
+Cumulative Revenue Growth
+MoM & WoW Revenue Comparison
+Moving Average Revenue Trend
+Business Value:
+
+Provides leadership with revenue visibility and trend forecasting.
+
+📍 Page 2: Occupancy & Capacity Analysis
+Highlights:
+Occupancy Rate by Hotel
+Occupancy by Room Category
+Seasonal Occupancy Trends
+Capacity Utilization Analysis
+Occupancy vs Revenue Correlation
+RevPAR vs Occupancy Performance
+Business Value:
+
+Helps optimize inventory allocation and improve room utilization.
+
+📍 Page 3: Room Category Performance & Booking Insights
+Highlights:
+Revenue by Room Type
+Booking Lead Time Analysis
+Average Length of Stay
+Running Revenue by Category
+High-performing Room Segments
+Business Value:
+
+Supports customer segmentation and room pricing strategies.
+
+📍 Page 4: Cancellation & Lost Revenue Analysis
+Highlights:
+Cancellation Rate by Hotel
+Cancellation Rate by Room Type
+Cumulative Cancellation Trends
+Lost Revenue Analysis
 MoM/WoW Cancellation Growth
+Business Value:
 
-• Business Impact & Insights
-Revenue Optimization: Identify pricing and demand patterns
-Operational Efficiency: Improve occupancy and capacity planning
+Identifies high-risk booking segments and minimizes revenue leakage.
 
-Loss Reduction: Detect high-risk cancellation segments
+📊 Business Impact
+💡 Revenue Optimization
 
-Strategic Decisions: Support management with real-time insights
+Identified pricing opportunities through ADR and RevPAR analysis.
 
-6️⃣ Screenshots / Demos
+⚙️ Operational Efficiency
 
-Dashboard screenshots and visuals are included in the repository to showcase each analytical page and key KPIs.
-Page 1 : 
+Improved occupancy and capacity planning using trend insights.
+
+💸 Loss Reduction
+
+Detected revenue loss from cancellations and booking inefficiencies.
+
+📈 Strategic Decision Support
+
+Enabled data-backed decision-making for hospitality leadership.
+
+🖼️ Dashboard Screenshots
+📍 Page 1: Financial Overview & Revenue Performance
+
 https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Financial%20Overview%20and%20Revenue%20Performance.png
-Page2:
+
+📍 Page 2: Room Category Performance & Booking Insights
+
 https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Room%20Category%20Performance%20%26%20Booking%20Insights.png
-Page3:
+
+📍 Page 3: Occupancy & Capacity Analysis
+
 https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/occupancy%20%26%20capacity%20analysis.png
-Page4:
+
+📍 Page 4: Cancellation & Lost Revenue Analysis
+
 https://github.com/98shiva/ITC-Hotels-Revenue-Optimization/blob/main/Cancellation%20and%20%20lost%20Revenue%20Analysis.png
+
+📌 Project Outcome
+
+This project demonstrates strong capabilities in:
+
+Business Intelligence
+Hospitality Analytics
+Revenue Optimization
+Data Modeling
+DAX Calculations
+KPI Design
+Dashboard Storytelling
+👨‍💻 Author
+
+Shiva Kashyap
+Aspiring Data Analyst | Power BI | SQL | Excel | Business Intelligence
+
+⭐ Final Note
+
+This project showcases how Power BI can be leveraged in the hospitality sector to convert operational data into strategic insights, enabling luxury hotel brands like ITC Hotels to improve profitability, customer experience, and business performance.
